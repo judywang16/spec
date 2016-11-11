@@ -24,6 +24,6 @@
 5. 暴露API接口设计需简单易用，便于扩展。接口传参需考虑扩展性。
 6. 完善的类型检查，异常处理，边界值判断。
 7. 库的生命周期定义。
-8. 使用ES5导出对象不可以用defined属性作为字段名，不可以使用exports.default导出。
+8. 使用ES5导出对象不可以用default属性作为字段名，不可以使用exports.default或module.exports={default: xxx}方式导出。
 9. 开发语法需统一，ES5和ES6不可混用。
 10. 合理使用注释。
